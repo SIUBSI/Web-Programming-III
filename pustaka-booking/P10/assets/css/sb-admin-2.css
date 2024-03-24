@@ -4923,6 +4923,7 @@ a.badge-success:focus, a.badge-success.focus {
 }
 
 .badge-info {
+  padding: 7;
   color: #fff;
   background-color: #36b9cc;
 }
@@ -4953,6 +4954,7 @@ a.badge-warning:focus, a.badge-warning.focus {
 }
 
 .badge-danger {
+  padding: 7;
   color: #fff;
   background-color: #e74a3b;
 }

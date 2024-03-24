@@ -14,7 +14,7 @@
                 <!-- KOnten -->
                 <form action="<?= base_url('buku/ubahkategori') ?>" method='post'>
                     <div class='form_group'>
-                        <input name='id_kategori' type='hidden' class='form-control' value="<?= $kategori['id_kategori'] ?>">
+                        <input name='id' type='hidden' class='form-control' value="<?= $kategori['id'] ?>">
                         <input name='kategori' class='form-control' value="<?= $kategori['kategori'] ?>">
                         <?= form_error('kategori'); ?>
                     </div>

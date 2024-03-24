@@ -16,7 +16,7 @@ class ModelBuku extends CI_Model
 
     public function simpanBuku($data = null)
     {
-        $this->db->insert('buku',$data);
+        $this->db->insert('buku', $data);
     }
 
     public function updateBuku($data = null, $where = null)
