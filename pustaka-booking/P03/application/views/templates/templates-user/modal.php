@@ -51,6 +51,9 @@
                         <input type="text" class="form-control form-control-user" id="email" name="email" placeholder="Alamat Email">
                     </div>
                     <div class="form-group">
+                        <input type="text" class="form-control form-control-user" id="alamat" name="alamat" placeholder="Alamat">
+                    </div>
+                    <div class="form-group">
                         <input type="password" class="form-control form-control-user" id="password1" name="password1" placeholder="Password">
                     </div>
                     <div class="form-group">
