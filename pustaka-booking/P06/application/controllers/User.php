@@ -66,7 +66,7 @@ class User extends CI_Controller
             {
                 //Eksekusi script
                 $config['upload_path'] = './assets/img/profile/';
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'jpg|png|jpeg';
                 $config['max_size'] = '3000';
                 $config['max_width'] = '3000';
                 $config['max_height'] = '3000';

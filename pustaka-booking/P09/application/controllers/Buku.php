@@ -280,7 +280,7 @@ class Buku extends CI_Controller
             {
                 //Eksekusi script
                 $config['upload_path'] = './assets/img/upload/';
-                $config['allowed_types'] = 'gif|jpg|png|jpeg|tif|svg|webp';
+                $config['allowed_types'] = 'jpg|png|jpeg';
                 $config['file_name'] = 'upload' . time();
                 $this->load->library('upload', $config);
 
